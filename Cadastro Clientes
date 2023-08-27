@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário CESMAC</title>
+</head>
+<body>
+<div style="background-color: Silver"> 
+    <form action="">
+            <fieldset>
+            <legend>Cadastro de Clientes</legend>
+        <label for="nome"><b>Nome:</b></label>
+        <input style= "border:2px solid DodgerBlue" type="text" id="nome" name="nome" required>
+<div><br>
+        <label for="email"><b>E-mail:</b></label>
+        <input style= "border:2px solid DodgerBlue" type="email" id="email" name="email" required>
+<div><br>
+        <label for="data-nascimento"><b>Data de Nascimento:</b></label>
+        <input style= "border:2px solid DodgerBlue" type="date" id="data-nascimento" name="data-nascimento" required>
+<div><br>
+        <label><b>Residência:</b></label>
+        <label for="casa">Casa</label>
+        <input id="ant" name="Residência" type="radio" value="S" />
+        
+        <label for="predio">Prédio</label>
+        <input id="ant" name="Residência" type="radio" value="S" />
+<div><br>
+                    <br><br>
+                </div>
+                <button style="background-color: Green">Salvar Informações</button>
+                <button style="background-color: red">Limpar</button>
+    </form>
+    </div>
+</body>
+</html>
